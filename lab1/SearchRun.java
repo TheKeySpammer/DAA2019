@@ -1,3 +1,5 @@
+package lab1;
+
 import java.util.Scanner;
 class SearchRun {
     public static void main(String[] args) {

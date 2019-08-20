@@ -1,3 +1,5 @@
+package lab1;
+
 public class SearchAlgo <T extends Comparable<T>> {
     private T arr[];
 
