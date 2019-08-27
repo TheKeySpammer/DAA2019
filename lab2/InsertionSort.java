@@ -15,6 +15,7 @@ public class InsertionSort<T extends Comparable <T>> {
             a[j+1] = key;
         }
         return a;
+
     }
 
     private boolean compare(T a, T b, boolean rev) {
