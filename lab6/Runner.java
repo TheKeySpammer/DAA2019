@@ -10,5 +10,8 @@ class Main {
         ArrayList<Integer> path = gh.DFS(1);
         System.out.println("DFS from 1: ");
         System.out.println(path);
+        Graph mst = gh.kruskalMST();
+        System.out.println("Minimum spanning tree: ");
+        mst.printGraph();
     }
 }
